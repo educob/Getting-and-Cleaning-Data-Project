@@ -1,7 +1,7 @@
 # Getting and Cleaning Data Course Project
  With this project I try to demonstrates my ability to collect, work with, and clean a data set that can be used for later analysis.
  
- This project contains an R script called run_analysis.R
+ This project contains an R script called run_analysis.R and the CodeBook.md
  
 # run_analysis.R
  A cleanup script that calculates means per subject's activity of the mean and standard deviation of the Human Activity Recognition Using Smartphones. This dataset should be present in the R file directory.
