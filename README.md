@@ -15,5 +15,9 @@ It does the following:
  Once executed, the resulting dataset will be called tidy_data_set.txt.txt
  It contains one row for each subject/activity pair and columns for subject, activity, and each feature that is a mean or  standard deviation of the original dataset.
 
+# CodeBook.md
+
+The code book describes the variables, the data, and any transformations or work performed to clean up the data
+
 # Data References
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 activityrecognition@smartlab.ws
