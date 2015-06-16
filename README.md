@@ -15,6 +15,19 @@ It does the following:
  Once executed, the resulting dataset will be called tidy_data_set.txt.txt
  It contains one row for each subject/activity pair and columns for subject, activity, and each feature that is a mean or  standard deviation of the original dataset.
 
+# Steps
+
+* Read the list of subjects.
+*For both the train and test data sets, produces a temporary data set:
+Extract the mean and standard deviation features (listed in CodeBook.md in 'Extracted Features').
+* Read the list of activities.
+* Set the activity labels (not ids) into the values table.
+* Set the subject id into the values table.
+* Merges the traing and test temporary data sets.
+* Set each variable on its own row.
+* Metls the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
+* Write the clean dataset to disk.
+
 # CodeBook.md
 
 The code book describes the variables, the data, and any transformations or work performed to clean up the data
