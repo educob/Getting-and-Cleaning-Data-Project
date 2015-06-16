@@ -7,6 +7,8 @@
 The activities are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
 # Feature Fields
+For  units see file README.txt in the <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip " >data</a>
+
 The mean per subject/activity of: 
 
 * tBodyAcc-mean()-X 
