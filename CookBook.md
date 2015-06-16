@@ -75,3 +75,13 @@ The mean per subject/activity of:
 * fBodyBodyGyroMag-std() 
 * fBodyBodyGyroJerkMag-mean()
 * fBodyBodyGyroJerkMag-std()
+
+# Transformations
+
+The script run_analysis.R does:
+
+* Load the various files which make-up the UCI dataset.
+* Merges the three train and test files into a single data.
+* Creates a smaller second data set, containing only subject, activity, and mean and std variables.
+* Computes the means of this secondary data set, grouped by subject/activity.
+* Saves this data set to tidy_data_set.txt
