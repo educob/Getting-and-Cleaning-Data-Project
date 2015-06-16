@@ -5,13 +5,7 @@
  
 # run_analysis.R
  A cleanup script that calculates means per subject's activity of the mean and standard deviation of the Human Activity Recognition Using Smartphones. This dataset should be present in the R file directory.
-It does the following:
- 
- * Merges the training and the test data sets.
- * Extracts only the measurements on the mean and standard deviation 
- * Uses descriptive activity names in the data set
- * Creates a second, independent tidy data set with the average of each variable for subject's activity
- 
+
  Once executed, the resulting dataset will be called tidy_data_set.txt.txt
  It contains one row for each subject/activity pair and columns for subject, activity, and each feature that is a mean or  standard deviation of the original dataset.
 
