@@ -9,7 +9,7 @@
  Once executed, the resulting dataset will be called tidy_data_set.txt.txt
  It contains one row for each subject/activity pair and columns for subject, activity, and each feature that is a mean or  standard deviation of the original dataset.
 
-# Steps
+## Steps
 
 * Read the list of subjects.
 *For both the train and test data sets, produces a temporary data set:
